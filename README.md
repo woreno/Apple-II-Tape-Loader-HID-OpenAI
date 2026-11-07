@@ -2,7 +2,7 @@
 This is a Apple II mod that allows talking with your Apple II with Artificial Inteligence (doing commands, loading tapes, writing Basic code); loading tapes from a SDCard and have USB keyboard and joystick emulation. 
 It was done in mid-2023, so still stuck to old OpenAI API formats.
 
-**This mod consists**
+**This mod consists of**
   * amplifier op-amp circuit with a electrec microphone wired to the Raspberry Pi Pico
   * an ESP8266 to connect to a server on a PC that will communicate with OpenAI
   * a circuit that connect/disconnects the ear-jack line from the Apple II enabling Raspberry Pi Pico to deliver sound (for loading tapes)
