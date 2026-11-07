@@ -6,7 +6,7 @@ It was done in mid-2023, so still stuck to old OpenAI API formats.
   * amplifier op-amp circuit with a electrec microphone wired to the Raspberry Pi Pico
   * an ESP8266 to connect to a server on a PC that will communicate with OpenAI
   * a circuit that connect/disconnects the ear-jack line from the Apple II enabling Raspberry Pi Pico to deliver sound (for loading tapes)
-  * a circuit that intercepts the original Apple II Keyboard and can replace it by a Raspberry Pi Pico generated keyboard (for writing on screen)
+  * a circuit that intercepts the original Apple II Keyboard and can replace it by a Raspberry Pi Pico generated keyboard (for writing on screen) or a USB Keyboard 
   * a mini TFT ST7755, joystick for user interface and a SDCard reader with a SDCard with Apple II 1-bit-digitalized tapes and a root file "CATALOG.TXT" with the full-name of each tape
 
 **Description**
