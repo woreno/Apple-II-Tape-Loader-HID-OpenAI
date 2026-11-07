@@ -1,6 +1,6 @@
 # Apple-II-Tape-Loader-HID-OpenAI (still cleaning the project to Github)
 This is a Apple II mod that allows talking with your Apple II with Artificial Inteligence (doing commands, loading tapes, writing Basic code); loading tapes from a SDCard and have USB keyboard and joystick emulation. 
-It was done in mid-2023, and my first OpenAI project, so still stuck to old OpenAI API formats.
+It was done in second half if 2023, and my first OpenAI project, so still stuck to old OpenAI API formats. Also this imply some modification to the Apple II board for switching purposes. As i built an Apple II Compatible before this was no brainer. So use the info here at your own risk.'
 
 **This mod consists of**
   * amplifier op-amp circuit with a electrec microphone wired to the Raspberry Pi Pico
