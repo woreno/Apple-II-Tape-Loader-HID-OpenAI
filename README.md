@@ -1,13 +1,14 @@
 # Apple-II-Tape-Loader-HID-OpenAI (still cleaning the project to Github)
-This is a Apple II mod that allows talking with your Apple II with Artificial Inteligence (doing commands, loading tapes, writing Basic code); loading tapes from a SDCard and have USB keyboard and joystick emulation. 
-It was done in second half if 2023, and my first OpenAI project, so still stuck to old OpenAI API formats. Also this imply some modification to the Apple II board for switching purposes. As i built an Apple II Compatible before this was no brainer. So use the info here at your own risk.'
+This is an Apple II mod that allows talking with your Apple II with Artificial Inteligence (doing commands, loading tapes, writing Basic code); loading tapes from a SDCard and have USB keyboard and joystick emulation. 
+It was done in second half of 2023, i wanted to test OpenAI API so i need a good project, so its still stuck to old OpenAI API formats. 
+This project implies some modification to the Apple II board for switching purposes. As i built an Apple II Compatible back in 2021 this was no brainer. So use the info here at your own risk.
 
 **This mod consists of**
   * amplifier op-amp circuit with a electrec microphone wired to the Raspberry Pi Pico
-  * an ESP8266 to connect to a server on a PC that will communicate with OpenAI
-  * a circuit that selects which line srives the speaker and loading tape audio to the cpu, either from the Raspberry Pi Pico or the cassete input
-  * a circuit that shift bits to 2 latches and puts the factory keyboard and paddles behind a buffers. The first one allows to the factory keyboard to be active or the Raspberry Pi Pico generated keystrokes or USB keyboard keystrokes; The second allows to the paddles or the USB gamepad to be active at a time.
-  * a mini TFT ST7755, joystick for user interface and a SDCard reader with a SDCard with Apple II 1-bit-digitalized tapes and a root file "CATALOG.TXT" with the full-name of each tape
+  * an ESP8266 to connect to a PC with a server application that will communicate with OpenAI
+  * a circuit that selects which line drives the speaker (either Raspberry Pi Pico or I/O), which line drives the tape audio for loading to the I/O ((either Raspbery Pi Pico or cassete input)
+  * a circuit that shift bits to 2 latches and puts the factory keyboard and paddles behind a buffers. The first latch/buffer one allows to the "Apple II keyboard" or the "Raspberry PI Pico generated Keyboard or USB Keyboard" to be active at a time; The second latch/buffer allows the "paddles" or the "USB gamepad" to be active at a time - i didn't finish the code for the USB gamepad as didn't had one to test it
+  * a mini TFT ST7755, joystick for user interface and a SDCard reader with a SDCard with Apple II 1-bit-digitalized tapes and a root file "CATALOG.TXT" with the full-name of each tape; this allow to load tapes directly from this small TFT
 
 **Description**
   * USB Keyboard: when pressed a key on the USB keyboard the Pico changes the keyboard interface and sends keystrokes from the
