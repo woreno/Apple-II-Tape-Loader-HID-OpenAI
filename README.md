@@ -10,7 +10,7 @@ This project implies some DIY modification to the Apple II board for switching p
   * a circuit that shift bits to 2 latches and puts the factory keyboard and paddles behind a buffers. The first latch/buffer one allows to the "Apple II keyboard" or the "Raspberry PI Pico generated Keyboard or USB Keyboard" to be active at a time; The second latch/buffer allows the "paddles" or the "USB gamepad" to be active at a time - i didn't finish the code for the USB gamepad as didn't had one to test it
   * a mini TFT ST7755, joystick for user interface and a SDCard reader with a SDCard with Apple II 1-bit-digitalized tapes and a root file "CATALOG.TXT" with the full-name of each tape; this allow to load tapes directly from this small TFT
 
-**Heavy modifications**
+**Heavy modifications to the Apple II motherboard are needed**
  * to the Raspberry Pi Pico be able to load tapes, and emmit sound its required to CUT at the speaker and the buffered cassete input and have a circuit with a 74LS257 for multiplex the pins.
  * to be able to put a buffer behind the digitalized outputs (X-Y axis pulses, and switches) from the game-paddles is needed to cut these and put it, behind a buffer.
  * these 2 are heavy modifications for an original Apple II, as warned before, i built before an Apple II board so i was more confortable with that idea of modding it.
